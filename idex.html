@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <title>IGTI | Trabalho Prático - Módulo 1</title>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Trabalho Prático do Módulo 1</h1>
+
+        <form>
+            <span class="form-item">(R) Vermelho</span>
+            <input class="form-item" type="range" id="red" min="0" max="255" value="0">
+            <input class="form-item" type="number" id="red-value" disabled>
+
+            <span class="form-item">(G) Verde</span>
+            <input class="form-item" type="range" id="green" min="0" max="255" value="0">
+            <input class="form-item" type="number" id="green-value" disabled>
+
+            <span class="form-item">(B) Azul</span>
+            <input class="form-item" type="range" id="blue" min="0" max="255" value="0">
+            <input class="form-item" type="number" id="blue-value" disabled>
+        </form>
+
+        <div class="preview"></div>
+
+    </div>
+    
+    <script src="./assets/js/color.js"></script>
+</body>
+</html>
